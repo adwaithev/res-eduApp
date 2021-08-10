@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-lg-5 col-md-4 col-12"></div>
+    <div class="col-lg-5 col-md-4 col-12 box">
+        <form [formGroup]="marksForm" (ngSubmit)="marks()">
+            
+            <input type="text" class="form-control" formControlName="exam" placeholder="Exam Name">
+            <input type="text" class="form-control" formControlName="s1" placeholder="Maths">
+            <input type="text" class="form-control" formControlName="s2" placeholder="English">
+            <input type="text" class="form-control" formControlName="s3" placeholder="Hindi">
+            <input type="text" class="form-control" formControlName="s4" placeholder="Physics">
+            <input type="text" class="form-control" formControlName="s5" placeholder="Chemisty">
+            <input type="submit" class="btn btn-primary" value="Submit" (click)="marks()">
+
+        </form>
+    </div>
+    <div class=" col-lg- 2 col-md-4 col-12"></div>
+</div>
+

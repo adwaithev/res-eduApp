@@ -1,0 +1,37 @@
+
+
+
+<div class="row">
+    <div class="col-lg-2 col-md-2 "></div>
+   
+    <div class="col-lg-8 col-md-8 col-12">
+        <h2 style="text-align: center;margin-top: 100px;">MARKS</h2>
+        <table class="table table-striped table-hover">
+           
+            
+            <thead>
+                <tr>
+                    <th>EXAM NAME</th>
+                    <th>MATHS</th>
+                    <th>ENGLISH</th>
+                    <th>HINDI</th>
+                    <th>PHYSICS</th>
+                    <th>CHEMISTRY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let mark of marks">
+                    <td>{{mark.exam}}</td>
+                    <td>{{mark.sub1}}</td>
+                    <td>{{mark.sub2}}</td>
+                    <td>{{mark.sub3}}</td>
+                    <td>{{mark.sub4}}</td>
+                    <td>{{mark.sub4}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <a routerLink="/dashboard">Home</a>
+    </div>
+    
+    <div class="col-lg-2 col-md-6 "></div>
+</div>

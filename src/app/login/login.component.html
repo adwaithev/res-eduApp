@@ -1,0 +1,20 @@
+
+<div class="row">
+
+    <div class="col-lg-5 col-md-4 col-12"></div>
+    <div class="col-lg-5 col-md-4 col-12 box">
+
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+    <h4 style="margin-left:70px;">login</h4>
+
+<input type="text" class="form-control" formControlName="rolno" placeholder="Roll No">
+<input type="text" class="form-control" formControlName="pswd"  placeholder="Password">
+<input type="submit" class="btn btn-primary" (click)="login()" value="login">
+
+
+</form>
+<a routerLink="register">sign up</a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-12"></div>
+
+</div>

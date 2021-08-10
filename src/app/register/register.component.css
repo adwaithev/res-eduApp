@@ -1,0 +1,20 @@
+.box{
+    background-color: blueviolet;
+    color: white;
+    width:300px;
+    margin-top: 10%;
+    padding: 2%;
+}
+.form-control{
+    margin-top:20px ;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 170px;
+    margin-top: 20px;
+}
